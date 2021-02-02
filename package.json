@@ -1,0 +1,21 @@
+{
+  "name": "lab5tokentask",
+  "version": "0.0.1",
+  "description": "solution for lab5 nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "debug": "nodemon --inspect .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmedbassal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "nodemon": "^2.0.7"
+  }
+}
